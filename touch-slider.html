@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Simple infinite slider</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div id="container">
+	<ul>
+		<li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806291.jpg)"></li>
+		<li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806379.jpg)"></li>
+		<li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/273/2733030.jpg)"></li>
+		<li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/118/11806598.jpg)"></li>
+                <li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806291.jpg)"></li>
+                <li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806379.jpg)"></li>
+                <li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/273/2733030.jpg)"></li>
+                <li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/118/11806598.jpg)"></li>
+                <li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806291.jpg)"></li>
+                <li style="background-image: url(http://q-ec.bstatic.com/images/hotel/840x460/118/11806379.jpg)"></li>
+                <li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/273/2733030.jpg)"></li>
+                <li style="background-image: url(http://r-ec.bstatic.com/images/hotel/840x460/118/11806598.jpg)"></li>
+	</ul>
+</div>
+
+<button onclick="cats.prev()">prev</button>
+<button onclick="cats.next()">next</button>
+<button onclick="cats.play()">play</button>
+<button onclick="cats.stop()">stop</button>
+
+<script src="main.js"></script>
+<script>
+var el = document.querySelector('#container');
+var cats = Carousel(el);
+</script>
+
+</body>
+</html>

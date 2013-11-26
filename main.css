@@ -1,0 +1,42 @@
+#container {
+	width: 840px;
+	height: 460px;
+	overflow: hidden;
+}
+
+#container > ul {
+	margin: 0;
+	padding: 0;
+	height: 460px;
+}
+
+#container > ul > li {
+	display: table-cell;
+	vertical-align: top;
+	background: rgb(248, 248, 248);
+	background-size: cover;
+	background-position: 50% 0;
+	color: rgb(67, 67, 67);
+	width: 840px;
+	height: 460px;
+	line-height: 200px;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+	-webkit-user-select: none;
+}
+
+button {
+	margin: 5px 0;
+	border: 1px solid #ddd;
+	padding: 5px 10px;
+	background: #eee;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #fff;
+}
